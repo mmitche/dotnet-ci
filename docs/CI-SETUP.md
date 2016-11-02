@@ -29,7 +29,7 @@ Here is the lifecycle of .NET CI.
 
 Below contains information on how to onboard your project onto Jenkins.
 
-  1. Send a PR to dotnet-ci adding your repo to jobs\data\repolist.txt.  The server (dotnet-ci or dotnet-ci2) is specified in the line.  Typically dotnet-ci is used, though newer repos may use dotnet-ci2.  Please indicate 
+  1. [Send a PR to dotnet-ci adding your repo to jobs\data\repolist.txt.](https://github.com/dotnet/dotnet-ci/blob/master/jobs/data/repolist.txt) The server (dotnet-ci or dotnet-ci2) is specified in the line.  Typically dotnet-ci is used, though newer repos may use dotnet-ci2.  Please indicate 
   2. Ensure your repo is accessible by @dotnet-bot (for PR status updates).
   3. Configure web hooks for the CI.  You need two entries:
     * A GitHub webhook for push events - Go into the repo settings, click "Webhooks", then click "Add webhook".
