@@ -271,8 +271,6 @@ class Utilities {
                                 // For internal runs - Win2016 + VS15.1
                                 'latest-dev15-1-internal':'win2016-20170427-internal',
                                 // win2016-base + d15prerel-26423.1
-                                'latest-d15prerel' : 'win2016-20170427-1',
-                                // win2016-base + d15prerel-26423.1
                                 'latest-d15prerel-internal' : 'win2016-20170531-internal',
                                 // For internal runs which don't need/want the static 'windows-internal' pool
                                 'latest-dev15-internal':'auto-win2012-20160707-internal',
